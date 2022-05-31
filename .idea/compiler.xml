@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tourfirm" />
+        <module name="tour-firm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="tour-firm" target="1.8" />
       <module name="tourfirm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tour-firm" options="-parameters" />
       <module name="tourfirm" options="-parameters" />
     </option>
   </component>

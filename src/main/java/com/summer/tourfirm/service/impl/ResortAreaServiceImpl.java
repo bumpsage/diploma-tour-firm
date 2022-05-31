@@ -2,13 +2,11 @@ package com.summer.tourfirm.service.impl;
 
 import com.summer.tourfirm.dto.ResortAreaDTO;
 import com.summer.tourfirm.dto.edit.ResortAreaEditDTO;
-import com.summer.tourfirm.entity.LiveBuilding;
 import com.summer.tourfirm.entity.ResortArea;
 import com.summer.tourfirm.entity.ResortCity;
 import com.summer.tourfirm.exception.DataNotFoundException;
 import com.summer.tourfirm.exception.DataValidationException;
 import com.summer.tourfirm.repository.ResortAreaRepository;
-import com.summer.tourfirm.service.ILiveBuildingService;
 import com.summer.tourfirm.service.IResortAreaService;
 import com.summer.tourfirm.service.IResortCityService;
 import org.springframework.beans.factory.annotation.Autowired;
